@@ -1,0 +1,86 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "@ionic/angular/css/normalize.css";
+@import "@ionic/angular/css/structure.css";
+@import "@ionic/angular/css/typography.css";
+@import "@ionic/angular/css/display.css";
+
+/* Optional CSS utils that can be commented out */
+@import "@ionic/angular/css/padding.css";
+@import "@ionic/angular/css/float-elements.css";
+@import "@ionic/angular/css/text-alignment.css";
+@import "@ionic/angular/css/text-transformation.css";
+@import "@ionic/angular/css/flex-utils.css";
+
+/**
+ * Ionic Dark Mode
+ * -----------------------------------------------------
+ * For more info, please see:
+ * https://ionicframework.com/docs/theming/dark-mode
+ */
+
+/* @import "@ionic/angular/css/palettes/dark.always.css"; */
+/* @import "@ionic/angular/css/palettes/dark.class.css"; */
+@import '@ionic/angular/css/palettes/dark.system.css';
+
+
+ion-content {
+  --background: #12081c;
+  --color: #e6dff0;
+}
+
+ion-toolbar {
+  --background: #1d0f2e;
+  --color: #ff9f1c;
+}
+
+ion-tab-bar {
+  --background: #1d0f2e;
+}
+
+ion-tab-button {
+  --color: #8f84a3;
+  --color-selected: #ff9f1c;
+}
+
+ion-title {
+  font-family: 'Creepster', 'Georgia', serif;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+}
+
+
+.titulo {
+  font-family: 'Creepster', 'Georgia', serif;
+  color: #ff9f1c;
+  text-align: center;
+  font-size: 2.4rem;
+  margin: 8px 0;
+  text-shadow: 2px 2px 0 #000;
+}
+
+.frase {
+  text-align: center;
+  font-style: italic;
+  color: #e6dff0;
+}
+
+.aviso {
+  text-align: center;
+  color: #ff9f1c;
+  font-style: italic;
+  margin: 16px 0;
+}

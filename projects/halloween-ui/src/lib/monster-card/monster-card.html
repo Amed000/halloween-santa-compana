@@ -1,0 +1,12 @@
+<article class="card">
+  @if (imagen) {
+    <img class="card__img" [src]="imagen" [alt]="titulo" />
+  }
+  <div class="card__body">
+    <h2 class="card__title">{{ titulo }}</h2>
+    <p class="card__text">{{ texto }}</p>
+    <button class="card__btn" type="button" (click)="pulsar()">
+      {{ textoBoton }}
+    </button>
+  </div>
+</article>

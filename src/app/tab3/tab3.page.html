@@ -1,0 +1,15 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Galería</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding" [fullscreen]="true">
+  @for (e of elementos; track e.titulo) {
+    <lib-monster-card
+      [titulo]="e.titulo"
+      [imagen]="e.imagen"
+      [texto]="e.frase"
+      textoBoton="Ver" />
+  }
+</ion-content>

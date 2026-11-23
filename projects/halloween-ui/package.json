@@ -1,0 +1,15 @@
+{
+  "name": "halloween-ui",
+  "version": "1.0.0",
+  "description": "Componentes visuales de terror para la app de La Santa Compaña",
+  "author": "AHMED SALEM",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^22.3.0",
+    "@angular/core": "^22.3.0"
+  },
+  "sideEffects": false,
+  "exports": {
+    ".": "./src/public-api.ts"
+  }
+}

@@ -1,0 +1,16 @@
+:host { display: block; --mc-acento: #ff9f1c; --mc-fondo: #12081c; --mc-texto: #e6dff0; }
+.card { margin: 14px 0; overflow: hidden; background: var(--mc-fondo); color: var(--mc-texto);
+  border: 3px double var(--mc-acento); border-radius: 18px;
+  box-shadow: 0 0 18px var(--mc-acento), 0 6px 16px rgba(0,0,0,.6); }
+.card__img { display: block; width: 100%; height: 190px; object-fit: cover;
+  border-bottom: 3px double var(--mc-acento); }
+.card__body { padding: 14px 16px 18px; }
+.card__title { margin: 0 0 8px; color: var(--mc-acento);
+  font-family: 'Creepster', 'Georgia', serif; font-size: 1.8rem; letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000; }
+.card__text { margin: 0; line-height: 1.5; }
+.card__btn { margin-top: 14px; padding: 10px 22px; border: 2px solid var(--mc-acento);
+  border-radius: 999px; background: transparent; color: var(--mc-acento);
+  font-weight: 700; cursor: pointer; transition: all .2s; }
+.card__btn:hover { background: var(--mc-acento); color: #000; }
+.card__btn:active { transform: scale(.94); box-shadow: 0 0 14px var(--mc-acento); }
